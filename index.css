@@ -1,0 +1,174 @@
+*{
+    text-decoration: none;
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.bar{
+    background-color: rgb(118, 118, 118);
+    color: #000000;
+    padding: 10px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar:hover{
+    background-color: rgb(14, 14, 14);
+    padding: 10px;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-bar{
+    width: 130px;
+}
+
+ul{
+    width: 60%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    
+}
+
+li{
+    color: rgb(255, 255, 255);
+}
+
+li:hover{
+    font-size: 20px;
+    transition: ease-in-out 0.5s;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-1{
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(215, 215, 215);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1250px;
+    border-radius: 15px;
+}
+
+.card-1-p{
+    direction: rtl;
+}
+
+.download-button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: #dcdcdc;
+    margin: 15px;
+
+}
+
+.download-button:hover{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: #000000;
+    color: aliceblue;
+    transition: 0.5s ease-in-out;
+
+}
+
+
+.card-2{
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(215, 215, 215);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1250px;
+    border-radius: 15px;
+
+}
+
+.img-1{
+    width: 400px;
+    border-radius: 15px;
+}
+
+.card-3{
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(215, 215, 215);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1250px;
+    border-radius: 15px;
+}
+
+.card-4{
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(215, 215, 215);
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1250px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    direction: rtl;
+}
+
+
+
+.card-5{
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(215, 215, 215);
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1250px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.material-symbols-outlined{
+    width: 70px;
+    height: auto;
+    color: #434343;
+}
+
+.material-symbols-outlined:hover{
+    color: #ffffff;
+}
+
+.card-5:hover{
+    background-color: rgb(14, 14, 14);
+    color: #ffffff;
+}
