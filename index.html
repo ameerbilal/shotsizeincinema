@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_back_ios" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_back_ios" />
+    <link rel="stylesheet" href="web.js">
     <title>Ameer Bilal Editor</title>
 </head>
 <body>
@@ -16,21 +17,25 @@
     <div class="bar">
 
         <a href="#"><img src="LOGO AMEER2-06.png" class="logo-bar"></a>
+        
+        <nav class="navbar">
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="https://ameer-bilal-editor.jimdosite.com/">الرئيسية</a></li>
+                <li><a href="https://ameer-bilal-editor.jimdosite.com/">الأعمال</a></li>
+                <li><a href="https://ameer-bilal-editor.jimdosite.com/film/">المعرض</a></li>
+                <li><a href="https://ameer-bilal-editor.jimdosite.com/contact/">اتصل بنا</a></li>
+            </ul>
+        </nav>
+            </div>
 
-        <ul>
-            <a href="https://ameer-bilal-editor.jimdosite.com/"><li>Home</li></a>
-            <a href="https://ameer-bilal-editor.jimdosite.com/film/"><li>Film</li></a>
-            <a href="https://ameer-bilal-editor.jimdosite.com/work/"><li>Work</li></a>
-            <a href="https://ameer-bilal-editor.jimdosite.com/contact/"><li>Contact</li></a>
-        </ul>
-    </div>
 
     <div class="content">
 
         <div class="card-1">
         <h1>Download PDF</h1>
         <p class="card-1-p" dir="rtl">
-            حمل الملف لتفهم اكتر، وطبعا اكيد الشرح يلي فيه مفصل أكثر، وجميل جدا يضل معك لحتى دائما تضل المعلومات عندك
+            .اهلا, بتقدر تحمل ملف pdf لفتهم أكثر عن حجم اللقطات في صناعة الأفلام
         </p>
         <button onclick="window.location.href='pdf.pdf';" class="download-button">Download</button>
         </div>
@@ -47,7 +52,7 @@
                 Watch The Video
             </h1>
             <p dir="rtl">فيديو يتكلم عن حجم اللقطات في السينما والتصوير ووكيف يتم استخدامها</p>
-            <iframe width="300px" height="55px" src="https://youtu.be/u5eGtfj83mU" 
+            <iframe width="400" height="155" src="https://youtu.be/qlG0qYH9DKU" 
             title="YouTube video player" frameborder="0" allowfullscreen></iframe>
 
         </div>
@@ -149,6 +154,6 @@
         </div>
 
     </div>
-
+    <script src="web.js"></script>
 </body>
 </html>
